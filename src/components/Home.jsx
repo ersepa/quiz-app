@@ -1,7 +1,7 @@
 function Home({ setStart }) {
   return (
     <div className="container home-card">
-      <h1>🧠 React Quiz App</h1>
+      <h1>React Quiz App</h1>
 
       <p>Test your knowledge with trivia questions.</p>
 
