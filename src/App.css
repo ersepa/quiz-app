@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f4f7fc;
+  font-family: "Segoe UI", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 700px;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2563eb;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+input:focus {
+  border-color: #2563eb;
+}
+
+button {
+  width: 100%;
+  border: none;
+  padding: 14px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+.timer {
+  font-size: 20px;
+  font-weight: bold;
+  color: #dc2626;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.progress {
+  width: 100%;
+  height: 10px;
+  background: #e5e7eb;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  height: 100%;
+  background: #2563eb;
+  transition: width 0.5s ease;
+}
+
+.question {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.result-card {
+  text-align: center;
+}
+
+.result-card h1 {
+  color: #16a34a;
+  margin-bottom: 20px;
+}
+
+.score {
+  font-size: 22px;
+  margin: 15px 0;
+}
+
+.home-card {
+  text-align: center;
+  padding: 60px;
+}
+
+.home-card p {
+  margin: 20px 0;
+  color: #666;
+  font-size: 18px;
+}
+
+.start-btn {
+  font-size: 18px;
+}
+
+.result-card {
+  max-width: 900px;
+  width: 95%;
+  text-align: center;
+  padding: 50px;
+}
+
+.score-circle {
+  width: 150px;
+  height: 150px;
+  margin: 30px auto;
+  border-radius: 50%;
+  background: #2563eb;
+  color: white;
+  font-size: 42px;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+
+.stats div {
+  padding: 20px;
+}
+
+.stats h2 {
+  font-size: 32px;
+  color: #2563eb;
+}
+
+.restart-btn {
+  margin-top: 20px;
+}
+
+.menu-btn {
+  margin-top: 15px;
+  background: #374151;
+}
+
+.menu-btn:hover {
+  background: #1f2937;
+}
